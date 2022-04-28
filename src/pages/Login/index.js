@@ -3,6 +3,7 @@ import React from 'react';
 import {ILLogo} from '../../assets';
 import {Button, Gap, Input} from '../../component';
 import Link from '../../component/atoms/Link';
+import { fonts } from '../../utils';
 
 const Login = () => {
   return (
@@ -33,7 +34,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 20,
-    fontFamily: 'Nunito-SemiBold',
+    fontFamily: fonts.primary[600],
     marginTop: 40,
     marginBottom: 40,
     maxWidth: 173,
